@@ -1,0 +1,8 @@
+/* Home.css */
+.background {
+  width: 100%;
+  height: 100vh;
+  background: #FFFFFF;
+  background: linear-gradient(to bottom left, #FFFFFF 61%, #CF1512 14%);
+
+}
