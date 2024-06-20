@@ -1,8 +1,16 @@
 /* Home.css */
+
+/* Base styles for the .background class */
 .background {
   width: 100%;
   height: 100vh;
-  background: #FFFFFF;
+  background: #FFFFFF; /* Fallback for older browsers */
   background: linear-gradient(to bottom left, #FFFFFF 61%, #CF1512 14%);
+}
 
+/* Media query for screens 768px and wider */
+@media (max-width: 768px) {
+  .background {
+    background: none; /* Remove background for larger screens */
+  }
 }
