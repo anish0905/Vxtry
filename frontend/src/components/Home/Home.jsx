@@ -1,8 +1,8 @@
 import NavBar from "../NavBar";
 import SecondNavBar from "../SecondNavBar";
 import ThirdSection from "../ThirdSection";
-import FifthSection from "./FifthSection";
-import FourthSection from "./FourthSection";
+import FourthSection from "../FourthSection";
+import FifthSection from "../FifthSection";
 
 const Home = () => {
   return (

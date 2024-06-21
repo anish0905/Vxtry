@@ -4,13 +4,21 @@
 .background {
   width: 100%;
   height: 100vh;
-  background: #FFFFFF; /* Fallback for older browsers */
-  background: linear-gradient(to bottom left, #FFFFFF 61%, #CF1512 14%);
+  background: #ffffff; /* Fallback for older browsers */
+  background: linear-gradient(to bottom left, #ffffff 61%, #cf1512 14%);
 }
 
 /* Media query for screens 768px and wider */
-@media (max-width: 768px) {
+/* Remove background for small screens (up to 640px) */
+@media (max-width: 640px) {
   .background {
-    background: none; /* Remove background for larger screens */
+    background: none;
+  }
+}
+
+/* Remove background for medium screens (up to 768px) */
+@media (min-width: 641px) and (max-width: 1020px) {
+  .background {
+    background: none;
   }
 }
