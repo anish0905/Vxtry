@@ -7,15 +7,18 @@ import FifthSection from "../FifthSection";
 const Home = () => {
   return (
     <>
-      <div className="background">
         <NavBar />
         <SecondNavBar />
+      <div className="background">
         <ThirdSection />
       </div>
       <div>
         <FourthSection />
       </div>
+      <div className="bg-white">
       <FifthSection />
+
+      </div>
     </>
   );
 };
