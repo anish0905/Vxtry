@@ -3,19 +3,18 @@ import hosting from "../assets/Shared-Hosting.png";
 import { FiCheckSquare } from "react-icons/fi";
 import FifthSectionCard from "./FifthSectionCard";
 
-
 // FifthSection Component
 const FifthSection = () => {
   return (
     <div className="bg-white-800 text-black py-16">
       <div className="container mx-auto px-4 flex flex-wrap justify-between items-center">
         {/* Left Section */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
-          <h2 className="text-4xl font-bold">
+        <div className="w-full lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 ">
+          <h2 className="lg:text-4xl text-3xl font-bold">
             Best <span className="text-red-500">Solution</span> To <br />
             Scale Your Business
           </h2>
-          <p className="mt-4 text-gray-800">
+          <p className="mt-4 text-gray-800 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -73,24 +72,32 @@ const FifthSection = () => {
       </div>
 
       {/* Services Section */}
-     <div className=" container mx-auto px-4 flex flex-wrap justify-between items-center">
-     {/* container mx-auto px-4 flex flex-wrap justify-between items-center */}
-      <div className="w-1/2">
-        <button className="bg-slate-900 text-white p-2 rounded-md" >OUR SERVICES</button>
-        <h1 className="text-4xl font-bold">We Provide You World</h1>
-        <h1 className="text-4xl font-bold"><span className="text-red-600 m-2">Best Hoisting</span>Services</h1>
+      <div className=" container mx-auto px-4 flex flex-wrap justify-between items-center mt-32 mb-20">
+        {/* container mx-auto px-4 flex flex-wrap justify-between items-center */}
+        <div className="w-1/2">
+          <button className="bg-slate-900 text-white p-2 rounded-md">
+            OUR SERVICES
+          </button>
+          <h1 className="lg:text-4xl text-2xl font-bold">
+            We Provide You World
+            <span className="text-red-600 m-2 ">Best Hoisting</span>Services
+          </h1>
+        </div>
+        <div className="w-1/2">
+          <p className="lg:text-md">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            id quam cumque repellendus impedit vitae, facere quidem neque ea
+            aspernatur consequuntur maiores, incidunt illum architecto quasi
+            unde deleniti facilis sequi.
+          </p>
+        </div>
       </div>
-      <div className="w-1/2">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae id quam cumque repellendus impedit vitae, facere quidem neque ea aspernatur consequuntur maiores, incidunt illum architecto quasi unde deleniti facilis sequi.</p>
+      <div className="flex justify-evenly flex-wrap mt-2">
+        <FifthSectionCard />
+        <FifthSectionCard />
+        <FifthSectionCard />
+        <FifthSectionCard />
       </div>
-     </div>
-     <div className="flex justify-evenly flex-wrap mt-2">
-<FifthSectionCard/>
-<FifthSectionCard/>
-<FifthSectionCard/>
-<FifthSectionCard/>
-
-     </div>
     </div>
   );
 };
