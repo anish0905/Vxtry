@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 const CountDown = () => {
   return (
-    <div className="container items-center  text-white">
+    <div className="container items-center  text-white mb-40">
       <div className="grid gap-4 lg:grid-cols-4 grid-cols-2 ">
         <div className="text-center lg:text-4xl text-xl font-bold">
           <CountUp end={500} duration={5} /> +

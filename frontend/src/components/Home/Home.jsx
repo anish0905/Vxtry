@@ -4,12 +4,13 @@ import ThirdSection from "../ThirdSection";
 import FourthSection from "../FourthSection";
 import FifthSection from "../FifthSection";
 import SixthSection from "../SixthSection";
+import SixthSection from "../SixthSection";
 
 const Home = () => {
   return (
     <>
-        <NavBar />
-        <SecondNavBar />
+      <NavBar />
+      <SecondNavBar />
       <div className="background">
         <ThirdSection />
       </div>
