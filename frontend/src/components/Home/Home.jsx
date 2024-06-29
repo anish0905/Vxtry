@@ -3,6 +3,7 @@ import SecondNavBar from "../SecondNavBar";
 import ThirdSection from "../ThirdSection";
 import FourthSection from "../FourthSection";
 import FifthSection from "../FifthSection";
+import SixthSection from "../SixthSection";
 
 const Home = () => {
   return (
@@ -15,9 +16,12 @@ const Home = () => {
       <div>
         <FourthSection />
       </div>
-      <div className="bg-white">
+      <div className="bg-slate-300">
       <FifthSection />
+      </div>
 
+      <div>
+        <SixthSection/>
       </div>
     </>
   );
