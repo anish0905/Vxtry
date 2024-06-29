@@ -3,8 +3,13 @@ import SecondNavBar from "../SecondNavBar";
 import ThirdSection from "../ThirdSection";
 import FourthSection from "../FourthSection";
 import FifthSection from "../FifthSection";
-import SixthSection from "../SixthSection";
-import SixthSection from "../SixthSection";
+// import SixthSection from "../SixthSection";
+import HostingPlans from "../HostingPlans";
+import FAQSection from "../FAQSection";
+import TestimonialSection from "../TestimonialSectio";
+import Articles from "../Articles";
+import Footer from "../Footer";
+
 
 const Home = () => {
   return (
@@ -21,9 +26,15 @@ const Home = () => {
       <FifthSection />
       </div>
 
-      <div>
+      {/* <div>
         <SixthSection/>
-      </div>
+      </div> */}
+      <HostingPlans/>
+
+      <FAQSection/>1
+      <TestimonialSection/>
+      <Articles/>
+      <Footer/>
     </>
   );
 };
